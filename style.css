@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(106,107,165);
+    color: rgb(242,242,243);
+    font-size:16px;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+p{
+    text-align: center;
+    margin-top: -17px;
+    font-size: 14px;
+    color: rgb(230,230,235);
+}
+.formCon{
+    background-color: rgb(39,39,71);
+    margin: auto;
+    max-width: 500px;
+    min-width: 300px;
+    width:50vw;
+    padding:2em;
+    border-radius: 5px;
+    border: solid 3px rgb(106,180,175);
+}
+label{
+    display: block;
+    margin: 0.5rem 0;
+}
+.name,.email,.number,.select1,.select2,.textarea{
+  font-weight: 600;
+}
+legend{
+    font-weight: 600;
+}
+
+
+input,select,textarea{
+    width: 100%;
+    min-height: 2.3em;
+    border-radius: 5px;
+    margin: 10px 0 20px 0;
+    padding: 0 0 0 10px;
+}
+input[type="radio"]{
+    width: unset;
+    margin: -0.7em 0.7em 0.1em 0;
+    vertical-align: -10px;
+}
+input[type="checkbox"]{
+    width: unset;
+    margin: -0.7em 0.7em 0.1em 0;
+    vertical-align: -10px ;
+}
+fieldset{
+    border: none;
+}
+.select1,.radio,.select2,.checkbox{
+    margin-top: 20px;
+}
+textarea{
+    height: 15%;
+}
+input[type="submit"]{
+    background-color: rgb(55,175,101);
+    color: rgb(230,230,235);
+    width: 25%;
+    height: 25%;
+    border: solid 2px rgb(234, 248, 240);
+    margin:auto 35%;
+    padding: 0;
+}
+input[type="submit"]:hover{
+    background-color:rgb(60,175,151);
+    color: white;
+}
